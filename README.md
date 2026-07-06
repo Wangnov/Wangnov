@@ -107,15 +107,6 @@ timeline
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Wangnov&theme=tokyonight" width="100%"/>
-
-<br/><br/>
-
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Wangnov&theme=tokyonight" />
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Wangnov&theme=tokyonight" />
-
-<br/><br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Wangnov&theme=tokyo-night&hide_border=true&area=true&radius=8" width="100%"/>
 
 </div>
