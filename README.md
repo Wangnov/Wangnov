@@ -54,27 +54,27 @@ timeline
 
 <table>
 <tr>
-<td align="center">
-<a href="https://github.com/Wangnov/codex-app-mirror"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Wangnov&repo=codex-app-mirror&theme=tokyonight&hide_border=true" /></a>
+<td align="center" width="50%">
+<a href="https://github.com/Wangnov/codex-app-mirror"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/codex-app-mirror/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/codex-app-mirror/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="codex-app-mirror" width="100%"></picture></a>
 </td>
-<td align="center">
-<a href="https://github.com/Wangnov/codex-threadripper"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Wangnov&repo=codex-threadripper&theme=tokyonight&hide_border=true" /></a>
-</td>
-</tr>
-<tr>
-<td align="center">
-<a href="https://github.com/Wangnov/claude-code-statusline-pro"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Wangnov&repo=claude-code-statusline-pro&theme=tokyonight&hide_border=true" /></a>
-</td>
-<td align="center">
-<a href="https://github.com/Wangnov/uv-custom"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Wangnov&repo=uv-custom&theme=tokyonight&hide_border=true" /></a>
+<td align="center" width="50%">
+<a href="https://github.com/Wangnov/codex-threadripper"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/codex-threadripper/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/codex-threadripper/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="codex-threadripper" width="100%"></picture></a>
 </td>
 </tr>
 <tr>
-<td align="center">
-<a href="https://github.com/Wangnov/Codex-App-Manager"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Wangnov&repo=Codex-App-Manager&theme=tokyonight&hide_border=true" /></a>
+<td align="center" width="50%">
+<a href="https://github.com/Wangnov/claude-code-statusline-pro"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/claude-code-statusline-pro/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/claude-code-statusline-pro/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="claude-code-statusline-pro" width="100%"></picture></a>
 </td>
-<td align="center">
-<a href="https://github.com/Wangnov/gewe-cc"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Wangnov&repo=gewe-cc&theme=tokyonight&hide_border=true" /></a>
+<td align="center" width="50%">
+<a href="https://github.com/Wangnov/uv-custom"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/uv-custom/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/uv-custom/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="uv-custom" width="100%"></picture></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/Wangnov/Codex-App-Manager"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/Codex-App-Manager/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/Codex-App-Manager/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="Codex-App-Manager" width="100%"></picture></a>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/Wangnov/gewe-cc"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/gewe-cc/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/gewe-cc/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="gewe-cc" width="100%"></picture></a>
 </td>
 </tr>
 </table>
@@ -107,16 +107,16 @@ timeline
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Wangnov&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wangnov&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Wangnov&theme=tokyonight" width="100%"/>
+
+<br/><br/>
+
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Wangnov&theme=tokyonight" />
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Wangnov&theme=tokyonight" />
 
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=Wangnov&theme=tokyonight&hide_border=true&date_format=Y-m-d" />
-
-<br/><br/>
-
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Wangnov&theme=tokyonight&no-frame=true&no-bg=true&column=8&margin-w=8&margin-h=8" /></a>
 
 <br/><br/>
 
