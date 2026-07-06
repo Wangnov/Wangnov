@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,45:414868,100:7aa2f7&height=220&section=header&text=Wangnov&fontSize=68&fontColor=c0caf5&animation=fadeIn&desc=Build%20agents%20%C2%B7%20Remove%20barriers%20%C2%B7%20Learn%20in%20public&descSize=20&descAlignY=78" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,45:414868,100:7aa2f7&height=220&section=header&text=Wangnov&fontSize=68&fontColor=c0caf5&desc=Build%20agents%20%C2%B7%20Remove%20barriers%20%C2%B7%20Learn%20in%20public&descSize=20&descAlignY=78" width="100%"/>
 
 <a href="https://github.com/Wangnov">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=700&color=7AA2F7&center=true&vCenter=true&width=760&lines=AI+Agent+Engineer+%C2%B7+FDE-style+Consultant;Enterprise+AI-Native+Transformation;Open-source+mirrors+%C2%B7+57k%2B+downloads+served;From+a+non-CS+ops+role+to+self-taught+builder;Learning+AWS+in+public+%E2%98%81" alt="Typing SVG" />
@@ -113,10 +113,6 @@ timeline
 
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Wangnov&theme=tokyonight" />
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Wangnov&theme=tokyonight" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=Wangnov&theme=tokyonight&hide_border=true&date_format=Y-m-d" />
 
 <br/><br/>
 
