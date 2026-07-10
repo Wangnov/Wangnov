@@ -74,7 +74,7 @@ timeline
 <a href="https://github.com/Wangnov/Codex-App-Manager"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/Codex-App-Manager/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/Codex-App-Manager/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="Codex-App-Manager" width="100%"></picture></a>
 </td>
 <td align="center" width="50%">
-<a href="https://github.com/Wangnov/gewe-cc"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/gewe-cc/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/gewe-cc/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="gewe-cc" width="100%"></picture></a>
+<a href="https://github.com/Wangnov/gpt-image-2-skill"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Wangnov/gpt-image-2-skill/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark"><img src="https://socialify.git.ci/Wangnov/gpt-image-2-skill/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light" alt="gpt-image-2-skill" width="100%"></picture></a>
 </td>
 </tr>
 </table>
