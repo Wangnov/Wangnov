@@ -1,0 +1,30 @@
+{
+  // Umbrella website & canonical author profile at https://agentsmirror.com/
+  // Also handles 301 canonicalization from https://www.agentsmirror.com/*
+  "name": "agentsmirror-hub-website",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-06-04",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/*"]
+  },
+  "r2_buckets": [
+    { "binding": "CODEX_MIRROR_BUCKET", "bucket_name": "codex-app-mirror" },
+    { "binding": "CODEX_MANAGER_BUCKET", "bucket_name": "codex-app-manager" },
+    { "binding": "CLAUDE_MIRROR_BUCKET", "bucket_name": "claude-app-mirror" }
+  ],
+  "routes": [
+    {
+      "pattern": "agentsmirror.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.agentsmirror.com",
+      "custom_domain": true
+    }
+  ]
+}

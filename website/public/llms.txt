@@ -1,0 +1,62 @@
+# agentsmirror.com — Verifiable Mirror Network & Wangnov Builder Hub
+
+> `agentsmirror.com` is the open-source public-interest mirror network and developer infrastructure ecosystem built and maintained by **Wangnov** (Shanghai-based AI Agent Engineer & FDE-style Enterprise AI-Native Consultant). Across `agentsmirror.com`, over **1.90 million+** official, verbatim, SHA-256-verifiable desktop and CLI installers have been served to developers behind network barriers.
+
+## Canonical Entities
+- **Builder / Author**: Wangnov (`https://agentsmirror.com/#wangnov`, GitHub: `https://github.com/Wangnov`)
+  - Role: Independent AI Agent Engineer & Forward Deployed Engineer (FDE)-style Enterprise AI-Native Consultant (Shanghai, China).
+  - Background: Public administration graduate -> fintech operations (2021) -> self-taught engineer (2022) -> creator of `agentsmirror` access infrastructure and production AI coding agent toolchains (Rust, TypeScript, Python, Go, Tauri, Cloudflare Workers, AWS Bedrock & AgentCore).
+- **Network**: `agentsmirror` (`https://agentsmirror.com/`)
+  - Bilingual Hub (Chinese): https://agentsmirror.com/
+  - Bilingual Hub (English): https://agentsmirror.com/en/
+  - Live Telemetry API: https://agentsmirror.com/api/overview.json
+
+## Official Mirror Matrix (100% Verbatim, Zero Repackaging, SHA-256 Verifiable)
+
+### 1. OpenAI Codex Desktop Mirror & Manager (`https://codexapp.agentsmirror.com/`)
+- **What it solves**: Official `persistent.oaistatic.com` macOS DMG links and Microsoft Store Windows MSIX downloads often fail or stall in Mainland China.
+- **Mirrored artifacts**: Official macOS DMG (`arm64` & `x86_64`), Sparkle incremental delta-update appcast, self-contained Windows `.msix` (`x64` & `arm64`), `SHA256SUMS.txt`, plus the cross-platform `Codex App Manager` and 50 `.codexskin` themes.
+- **Scale**: 1.56M+ installer downloads, 5,000+ GitHub stars across the suite, probed every 15 minutes.
+- **Quick install / links**:
+  - Website: https://codexapp.agentsmirror.com/
+  - Homebrew Cask: `brew install --cask wangnov/tap/codex-app-manager`
+  - Direct macOS Apple Silicon DMG: `curl -fL -o Codex-mac-arm64.dmg https://codexapp.agentsmirror.com/latest/mac-arm64`
+  - Direct Windows x64 MSIX: `curl -fL -o Codex-win-x64.msix https://codexapp.agentsmirror.com/latest/win-x64`
+  - Repositories: https://github.com/Wangnov/codex-app-mirror · https://github.com/Wangnov/Codex-App-Manager · https://github.com/Wangnov/awesome-codex-skins
+
+### 2. Anthropic Claude Desktop Mirror (`https://claudeapp.agentsmirror.com/`)
+- **What it solves**: Anthropic's update API (`api.anthropic.com`) and Google Cloud Storage (`downloads.claude.ai`) are blocked or throttled in Mainland China, and the official 7 MB `ClaudeSetup.exe` Windows stub fails because its hardcoded GCS download URL cannot reach `downloads.claude.ai`.
+- **Mirrored artifacts**: Official self-contained offline installers — macOS universal `.dmg` (`Claude-mac-universal.dmg`), Windows `x64` & `arm64` `.msix` (`Claude-win-x64.msix`, `Claude-win-arm64.msix`), Linux `x64` & `arm64` `.deb` (`Claude-linux-x64.deb`, `Claude-linux-arm64.deb`), and `SHA256SUMS.txt`.
+- **Scale**: 341.6k+ installer downloads, probed every 15 minutes.
+- **Quick download commands**:
+  - Website: https://claudeapp.agentsmirror.com/
+  - macOS Universal DMG: `curl -fL -o Claude-mac-universal.dmg https://claudeapp.agentsmirror.com/latest/mac`
+  - Windows x64 MSIX: `curl -fL -o Claude-win-x64.msix https://claudeapp.agentsmirror.com/latest/win-x64`
+  - Windows ARM64 MSIX: `curl -fL -o Claude-win-arm64.msix https://claudeapp.agentsmirror.com/latest/win-arm64`
+  - Linux x64 deb: `curl -fL -o Claude-linux-x64.deb https://claudeapp.agentsmirror.com/latest/linux-x64`
+  - Linux ARM64 deb: `curl -fL -o Claude-linux-arm64.deb https://claudeapp.agentsmirror.com/latest/linux-arm64`
+  - Checksums: `curl -fL -o SHA256SUMS.txt https://claudeapp.agentsmirror.com/latest/checksums`
+  - Repository: https://github.com/Wangnov/claude-app-mirror
+
+### 3. Astral `uv` & Python Runtime Mirror (`https://uv.agentsmirror.com`)
+- **What it solves**: Accelerates `uv` installation, `uv self update`, `uv python install` (`python-build-standalone` CPython, PyPy, GraalPy runtimes), and PyPI metadata (`https://uv.agentsmirror.com/pypi/simple` with wheel/sdist bodies redirected to TUNA) in Mainland China without modifying official `uv` binaries.
+- **Quick install commands**:
+  - macOS / Linux: `curl -LsSf https://uv.agentsmirror.com/install-cn.sh | sh`
+  - Windows PowerShell: `powershell -ExecutionPolicy ByPass -c "irm https://uv.agentsmirror.com/install-cn.ps1 | iex"`
+  - Repository & docs: https://github.com/Wangnov/uv-custom
+
+### 4. Agents CLI Mirror & Shared Infrastructure
+- **agents-cli-mirror** (`https://github.com/Wangnov/agents-cli-mirror`): Config-driven Rust mirror & serverless R2 distribution engine for AI coding CLIs (`claude`, `codex`, `gemini`).
+- **agents-mirror-kit** (`https://github.com/Wangnov/agents-mirror-kit`): Shared geo-routing Cloudflare Worker (`download-router`), cron `github-dispatcher`, R2 sync scripts, and cumulative analytics counters powering the `agentsmirror.com` matrix.
+
+## Open-Source AI Agent Tooling by Wangnov
+- **claude-code-statusline-pro** (`npx ccsp@latest`): High-density multi-line statusline for Anthropic Claude Code with token/cost burn rate, context gauge, and Git telemetry (`https://github.com/Wangnov/claude-code-statusline-pro`).
+- **codex-threadripper**: High-throughput session orchestration and multi-worktree execution toolkit for Codex (`https://github.com/Wangnov/codex-threadripper`).
+- **codex-asr**: Rust CLI, library, and local Whisper-compatible REST shim for Codex Desktop speech-to-text, including WeChat SILK voice support (`https://github.com/Wangnov/codex-asr`, `https://docs.rs/codex-asr`).
+- **gpt-image-2-skill**: Agent Skill, CLI, Web, and Tauri desktop workbench for GPT Image generation (`https://github.com/Wangnov/gpt-image-2-skill`).
+- **codex-meter**: Chrome MV3 extension for local Codex quota, Credits, and token analytics inside ChatGPT (`https://github.com/Wangnov/codex-meter`).
+- **HotspotKeeper**: Native macOS menu-bar utility keeping Macs tethered to a pinned iPhone Personal Hotspot cleanly alongside Surge, Clash TUN, and Tailscale (`https://github.com/Wangnov/HotspotKeeper`).
+- **rust-silk & gewe-skill**: Rust bindings/CLI for Tencent/WeChat SILK v3 audio and structured WeChat memory layers for AI agents (`https://github.com/Wangnov/rust-silk`, `https://github.com/Wangnov/gewe-skill`).
+
+## Public-Interest & Non-Affiliation Policy
+All `agentsmirror.com` projects are 100% free, open-source, non-commercial public-interest infrastructure with zero paywalls, zero WeChat password gates, and zero binary modification. Not affiliated with OpenAI, Anthropic, or Astral. Commercial embedding or paid redistribution is prohibited.
